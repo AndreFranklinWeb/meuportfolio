@@ -1,0 +1,46 @@
+@charset "UTF-8";
+h2 {
+    color: #191970 !important;
+}
+
+.text-primary {
+    color: #191970 !important;
+}
+
+.bg-primary {
+    background-color: #191970 !important;
+}
+
+a {
+    color: #191970;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a.bg-primary:hover,
+a.bg-primary:focus,
+button.bg-primary:hover,
+button.bg-primary:focus {
+    background-color: #191970 !important;
+}
+
+.social-icons .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #495057;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.social-icons .social-icon:hover {
+    background-color: #191970;
+}
+
+.list-inline-item:hover {
+    color: #191970;
+}
